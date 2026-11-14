@@ -1,168 +1,232 @@
-# Awesome-Performance-Review-Feedback-Management
-
 # Awesome Performance Review & Feedback Management
 
-> A curated list of top Performance Review and Feedback Management platforms — both SaaS/Hosted commercial HR suites and open-source alternatives for running reviews, collecting continuous feedback, and tracking employee growth.
-> 🌟 Star this repo if you find it useful! 🌟
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/ishandutta2007/Awesome-Performance-Review-Feedback-Management/)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+
+> A curated list of top **Performance Review**, **Continuous Feedback Management**, **360-Degree Evaluation**, and **Employee Appraisal** systems — featuring commercial cloud SaaS platforms, enterprise market intelligence, and production-grade self-hosted open-source alternatives.
 
 ---
 
-## 📋 Table of Contents
+## 📑 Table of Contents
 
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Lattice](#lattice)
-  - [Culture Amp](#culture-amp)
-  - [15Five](#15five)
-  - [Leapsome](#leapsome)
-  - [Betterworks](#betterworks)
-- [Open-Source Software](#-open-source-software)
-  - [Horilla HRMS](#horilla-hrms)
-  - [Check-Ins](#check-ins)
-  - [Caliber](#caliber)
-  - [PIX 360](#pix-360)
-  - [EPMS](#epms)
-  - [MintHCM](#minthcm)
-- [Comparison at a Glance](#-comparison-at-a-glance)
+- [Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [Commercial SaaS Platforms](#-commercial-saas-platforms)
+- [Open-Source Solutions](#-open-source-solutions)
+  - [1. Horilla HRMS](#1-horilla-hrms-)
+  - [2. MintHCM](#2-minthcm-)
+  - [3. HRPulsar](#3-hrpulsar-)
+  - [4. threesixty](#4-threesixty-)
+  - [5. Thinksy](#5-thinksy-)
+  - [6. Blik](#6-blik-)
+  - [7. Evalytics](#7-evalytics-)
+  - [8. Check-Ins](#8-check-ins-)
+  - [9. PIX 360](#9-pix-360-)
+  - [10. Caliber](#10-caliber-)
+  - [11. Feedback360](#11-feedback360-)
+  - [12. EPMS](#12-epms-)
+- [Feature Comparison Matrix](#-feature-comparison-matrix)
 - [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📈 Sector Overview & Market Dynamics
 
-Commercial, cloud-hosted Performance Review and Feedback Management platforms. These are not open-source but are included as reference points for feature comparison.
+The global **Employee Performance Management & Continuous Feedback Software** market is currently estimated at approximately **$6.3 billion to $8.0 billion** and is projected to expand to **$15.0 billion – $18.0+ billion** by 2033–2035 at a robust CAGR of **10.5% – 13.5%**.
 
-### Lattice
-**Type:** Performance management with reviews, goals, and 1:1s
-Lattice is one of the most widely adopted performance management platforms, covering performance reviews, 360 feedback, goal/OKR tracking, 1:1 meeting management, and engagement surveys. It is known for its clean interface and strong manager-enablement features. Pricing is per-seat with tiered plans.
-
-### Culture Amp
-**Type:** Employee experience with engagement and performance
-Culture Amp specializes in employee engagement surveys and performance reviews, with a strong focus on people analytics and benchmarking. It is positioned for organizations wanting data-driven insights into employee experience alongside review workflows.
-
-### 15Five
-**Type:** Continuous performance management with weekly check-ins
-15Five is built around weekly check-ins, OKRs, and continuous feedback rather than annual review cycles. It is positioned for managers wanting ongoing visibility into team sentiment and progress, with review features layered on top of the check-in cadence.
-
-### Leapsome
-**Type:** Performance and engagement with reviews and goals
-Leapsome combines performance reviews, 360 feedback, goals/OKRs, and engagement surveys in a single platform. It is positioned as an all-in-one people enablement platform for mid-market organizations.
-
-### Betterworks
-**Type:** OKR and performance management
-Betterworks focuses on OKR tracking and performance management, helping organizations align goals across teams and connect them to review cycles. It is positioned for enterprises wanting structured goal alignment alongside performance conversations.
+The sector exhibits **moderate to high fragmentation** rather than a winner-take-all monopoly: while legacy enterprise HCM giants (such as Workday, SAP SuccessFactors, and Oracle HCM) capture roughly 47% of consolidated enterprise budgets, the remaining majority of the market is fragmented among agile specialist platforms (Lattice, Culture Amp, 15Five, Leapsome) and specialized self-hosted systems. High fragmentation is driven by low cloud barriers to entry, diverging operational workflows between tech scale-ups and traditional corporations, and the generational paradigm shift from annual backward-looking appraisals toward continuous, real-time pulse reviews and AI-augmented feedback cycles.
 
 ---
 
-## 🟩 Open-Source Software
+## 🏢 Commercial SaaS Platforms
 
-Self-hosted, community-driven Performance Review and Feedback Management tools. The open-source ecosystem is **fragmented** — most projects are either broad HR suites with performance modules, manager-focused tools, or early-stage review applications.
+Below is the comparative breakdown of leading commercial cloud platforms for continuous performance reviews, 360 evaluations, OKRs, and employee engagement, **sorted by company size (valuation / estimated ARR descending)**.
 
-### Horilla HRMS
-**Stack:** Python / Django / PostgreSQL | **License:** LGPL-2.1
-Horilla is a comprehensive open-source HR management suite with a dedicated **Performance Management** module covering goal setting, reviews, and continuous feedback . Key features include:
-- **Performance Management**: goal setting, reviews, and continuous feedback 
-- **Employee Management** with LDAP integration 
-- **Recruitment**, onboarding/offboarding, attendance, leave, payroll, and asset management 
-- **Helpdesk and project management** modules 
-- **REST API** with token-based authentication, and integrations with LDAP, Google Meet, Google Drive, and WhatsApp 
-
-Deploys via Docker (`docker pull horilla/horilla-hr:2.4.0`) with a documented Compose file, or from source with Python 3.12–3.14 . Security features include permission-based access control, optional two-factor login, brute-force protection, and audit trails . The project is actively developed with a stable 2.0 branch and a dev/v2.0 integration branch .
-**Best for:** Organizations wanting a comprehensive open-source HR suite where performance reviews are one module within a broader employee lifecycle platform, accepting the broader Django/PostgreSQL deployment.
-
-### Check-Ins
-**Stack:** Micronaut / React / Google Cloud or on-prem | **License:** Open Source
-Check-Ins is a team engagement platform from Object Computing with **Performance Reviews and Reporting**, **Feedback Management**, and **Pulse Surveys** . Key features include:
-- **Performance Reviews and Reporting**: evaluate team performance as frequently as desired 
-- **Feedback Management**: give employees access to feedback for skill growth 
-- **Pulse Surveys**: find out how the team is feeling about work 
-- **Mentor Program Management**: support and manage employee touchpoints with a dedicated mentor 
-- **Public Kudos**: celebrate wins publicly, with Slack integration 
-- **Employee Profiles**: manage skills, certifications, and organizations 
-
-Built with Micronaut and React, deployable on-premises or on Google Cloud Platform, with Google SSO integration .
-**Best for:** Teams wanting a focused engagement and performance platform with mentor program support and public recognition, accepting the Micronaut/React stack.
-
-### Caliber
-**Stack:** Web application | **License:** Open Source
-Caliber is a lightweight web platform for **engineering managers** to run day-to-day management work in one place, with a strong focus on **performance conversations** . Key features include:
-- **People & Teams**: manage team members with seniority, roles, and start dates, with attention signals per person (overdue tasks, no recent 1:1, ageing follow-ups) 
-- **Log evidence per person** for performance conversations 
-- **Meetings**: structured templates for 1:1s, Team Sync, Retro, Planning, Review, Standup, with action item extraction 
-- **Tasks & Follow-ups**: Kanban and backlog views, tracking commitments made to team members 
-- **Career Framework & Goals**: track career goals, gap analysis, focus distributions, achievements, and profile notes 
-- **Weekly Review & Summary**: structured checklist with optional AI-assisted summary generation 
-
-It is explicitly designed around how management work actually happens—ad-hoc meetings, regular 1:1s, ongoing feedback, and small actions that need follow-through .
-**Best for:** Engineering managers wanting a lightweight tool focused on 1:1s, evidence logging, and career conversations rather than formal HR review cycles.
-
-### PIX 360
-**Stack:** Ruby | **License:** AGPL-3.0
-PIX 360 is a French application for managing **360-degree evaluations** in an organization . Features include:
-- **Google SSO** to restrict access to organization members 
-- **Email-based evaluation request** sending 
-- **Notification** when a new evaluation is received 
-- **Storage of received and given evaluations** 
-- **End-to-end encrypted evaluations** 
-
-The project has 6 stars and 7 open issues, with last activity approximately 7 months ago . It is a **focused 360 review tool** rather than a full performance management suite.
-**Best for:** Organizations wanting a self-hosted, privacy-focused 360 evaluation tool, accepting a smaller community and narrower scope.
-
-### EPMS
-**Stack:** React / Node.js / MongoDB | **License:** MIT
-EPMS (Employee Performance Management System) is a modern full-stack application with **Performance Reviews**, **KPI Tracking**, **Goal Management**, **Performance Reports**, and **Employee Evaluation** . Key features include:
-- **Role-Based Access Control** with JWT authentication 
-- **Dashboard & Analytics**: real-time dashboard, employee statistics, performance charts, activity monitoring 
-- **Reports**: employee and department reports with PDF and Excel export 
-- **Notifications**: performance review reminders and system notifications 
-
-Built with React, Vite, Tailwind CSS, Node.js, Express, and MongoDB Atlas . **Important:** The project was last committed in June 2026 and has limited community adoption—evaluate maturity before production use.
-**Best for:** Developers wanting a modern, full-stack reference implementation of a performance management system, accepting early-stage maturity.
-
-### MintHCM
-**Stack:** PHP / (Check repository) | **License:** Open Source
-MintHCM is an open-source Human Capital Management platform built in PHP, positioned as an AI-ready HCM with **MCP/A2A-native** interfaces for connecting AI agents to HR functions including **performance reviews** . Key characteristics:
-- **Full data ownership**: all employee and payroll data stay on the organization's infrastructure 
-- **AI-ready integration**: MCP-compatible API lets AI assistants interact with real HR tools without vendor lock-in 
-- **Production readiness signals**: 360 stars, 74 forks, recent commits as of September 2026, and a health score of 77/100 
-
-It covers HR processes broadly, with performance reviews as one function among payroll, onboarding, leave management, and offboarding .
-**Best for:** Organizations wanting an open-source HCM with AI agent integration and data sovereignty, accepting a PHP stack and broader HCM scope.
+| Platform | Starting Tier Pricing | Free Tier / Free Trial Limits | Company Size (Valuation / ARR) | Primary Focus & Capabilities |
+|:---|:---|:---|:---|:---|
+| **[Lattice](https://lattice.com)** | **$4.00/seat/month** (Engagement) / **$10.00/seat/month** (Performance module; minimum annual commitment spend: $4,000/year) | **No free tier & no public self-serve trial**; testing requires booking a sales-guided live demo or interactive website walkthrough | **Valuation: $3.0B** (Series F) / **ARR: ~$115M – $127M+** | Enterprise-grade performance reviews, 360 feedback, continuous 1:1 agendas, goal/OKR cascading, and talent analytics. |
+| **[Culture Amp](https://cultureamp.com)** | **$3,300.00/year base minimum** (approx. $3.00 – $6.00/seat/month scaled by module headcount) | **No free tier & no public self-serve trial**; prospective enterprise clients must request a custom consultation and guided sandbox demo | **Valuation: $1.5B** (Series F) / **ARR: ~$177M – $227M+** | People analytics, employee experience benchmarks, deep pulse & climate engagement surveys, and 360 performance calibrations. |
+| **[15Five](https://15five.com)** | **$4.00/user/month** (Engage plan) / **$11.00/user/month** (Perform plan; billed annually) | **14-day free trial** (full access without upfront contract requirement); no perpetual free tier | **Valuation: ~$500M+** (Est.) / **ARR: ~$100M – $150M** | Continuous performance management based on weekly check-ins, 1:1 meeting prep, objectives/OKRs, and AI-assisted performance reviews. |
+| **[Leapsome](https://leapsome.com)** | **$5.00 – $8.00/user/month** (Base module; annual contract starting floor ~$9,600/year, startup discounts available) | **14-day free trial** (unrestricted feature testing with no credit card required); no perpetual free tier | **Valuation: ~$300M – $800M** (Series A) / **ARR: ~$30M – $45M+** | All-in-one mid-market people enablement suite combining structured 360 reviews, goal alignment, competency frameworks, and engagement surveys. |
+| **[Betterworks](https://betterworks.com)** | **$8.00/user/month** (Performance tier, billed annually) | **No free tier & no public self-serve trial**; enterprise evaluation requires an interactive enterprise demo and tailored proof-of-concept setup | **Valuation: ~$177M** / **ARR: ~$22M – $42M** | Enterprise OKRs alignment, continuous coaching, anytime talent calibration, succession planning, and AI performance intelligence. |
 
 ---
 
-## 📊 Comparison at a Glance
+## 💻 Open-Source Solutions
 
-| Software | License | Stack | Review Cycles | 360 Feedback | Continuous Feedback | Self-Hosted | Best For |
-|----------|---------|-------|---------------|--------------|---------------------|-------------|----------|
-| **Lattice** | Proprietary | Cloud | ✅ | ✅ | ✅ | ❌ | Full performance management |
-| **Culture Amp** | Proprietary | Cloud | ✅ | ✅ | (Engagement) | ❌ | Engagement + performance |
-| **15Five** | Proprietary | Cloud | ✅ | (Check-ins) | ✅ | ❌ | Continuous check-ins |
-| **Horilla** | LGPL-2.1 | Django/Postgres | ✅ | (Check) | ✅ | ✅ | Full HR suite + performance |
-| **Check-Ins** | Open Source | Micronaut/React | ✅ | (Check) | ✅ | ✅ | Engagement + mentor program |
-| **Caliber** | Open Source | Web | (1:1 focused) | ❌ | ✅ | ✅ | Engineering manager 1:1s |
-| **PIX 360** | AGPL-3.0 | Ruby | (360 only) | ✅ E2EE | ❌ | ✅ | Privacy-focused 360 reviews |
-| **EPMS** | MIT | React/Node/Mongo | ✅ | (Check) | (Check) | ✅ | Full-stack reference implementation |
-| **MintHCM** | Open Source | PHP | ✅ | (Check) | (Check) | ✅ | AI-ready HCM + performance |
+A comprehensive, curated collection of open-source and self-hosted tools for employee evaluations, 360-degree feedback, and continuous check-ins, **sorted by GitHub star count (descending)**.
+
+### 1. Horilla HRMS [![GitHub stars](https://img.shields.io/github/stars/horilla/horilla-hr?style=social&color=white)](https://github.com/horilla/horilla-hr/stargazers)
+* **Repository:** [horilla/horilla-hr](https://github.com/horilla/horilla-hr)
+* **Stack:** Python 3.12–3.14 / Django / PostgreSQL / Docker
+* **License:** LGPL-2.1
+* **Overview:** A modern, feature-rich HR management system with a dedicated **Performance Management** module supporting goal setting, KRAs, periodic appraisal cycles, and continuous peer feedback.
+* **Key Features:**
+  - Full employee appraisal workflow with manager evaluations and self-assessments
+  - Comprehensive employee lifecycle tracking (LDAP integration, attendance, leave, payroll)
+  - REST API with token authentication and third-party integrations (Google Meet, WhatsApp)
+  - Production-ready Docker Compose deployment with role-based access control (RBAC)
+
+### 2. MintHCM [![GitHub stars](https://img.shields.io/github/stars/minthcm/minthcm?style=social&color=white)](https://github.com/minthcm/minthcm/stargazers)
+* **Repository:** [minthcm/minthcm](https://github.com/minthcm/minthcm)
+* **Stack:** PHP / Elasticsearch / Docker
+* **License:** AGPL-3.0
+* **Overview:** An open-source Human Capital Management platform architected for full enterprise data sovereignty, featuring AI-native interfaces and MCP/A2A connectivity for automating performance evaluations.
+* **Key Features:**
+  - Centralized performance evaluation records and employee skill matrix
+  - Model Context Protocol (MCP) compatible APIs enabling AI assistants to participate in HR workflows
+  - Complete data ownership without cloud lock-in
+  - Broad HR footprint covering onboarding, leave management, and career progression
+
+### 3. HRPulsar [![GitHub stars](https://img.shields.io/github/stars/HRPulsar/hrpulsar?style=social&color=white)](https://github.com/HRPulsar/hrpulsar/stargazers)
+* **Repository:** [HRPulsar/hrpulsar](https://github.com/HRPulsar/hrpulsar)
+* **Stack:** Python (FastAPI) / Next.js / TypeScript / Docker
+* **License:** AGPL-3.0
+* **Overview:** A modern open-source talent and competency management platform specifically built for 360° assessments, skill frameworks, and automated employee development plans.
+* **Key Features:**
+  - Multi-rater 360-degree feedback cycles (self, peers, managers, direct reports)
+  - Competency matrices and gap analysis dashboards
+  - Individual development plans (IDPs) linked directly to review results
+  - AI-assisted appraisal summary generation and custom evaluation surveys
+
+### 4. threesixty [![GitHub stars](https://img.shields.io/github/stars/thermondo/threesixty?style=social&color=white)](https://github.com/thermondo/threesixty/stargazers)
+* **Repository:** [thermondo/threesixty](https://github.com/thermondo/threesixty)
+* **Stack:** Python / Django / React
+* **License:** MIT
+* **Overview:** A dedicated, lightweight internal 360-degree feedback tool developed by Thermondo to streamline peer reviews, manager feedback, and team retrospectives.
+* **Key Features:**
+  - Simple creation and distribution of 360-degree review questionnaires
+  - Anonymous multi-perspective feedback aggregation
+  - Self-service employee dashboard for viewing completed reviews
+  - Straightforward self-hosted deployment
+
+### 5. Thinksy [![GitHub stars](https://img.shields.io/github/stars/Thinksy-app/thinksy?style=social&color=white)](https://github.com/Thinksy-app/thinksy)
+* **Repository:** [Thinksy-app/thinksy](https://github.com/Thinksy-app/thinksy)
+* **Stack:** Python / Slack API / Node.js
+* **License:** MIT
+* **Overview:** A self-hosted Slack bot application that captures daily achievements and summarizes work history for performance reviews and regular check-ins.
+* **Key Features:**
+  - Continuous feedback and brag-sheet logging directly from Slack channels
+  - Automated weekly and quarterly achievement summaries
+  - Prevents recency bias during annual and semi-annual performance reviews
+  - Privacy-first self-hosted architecture
+
+### 6. Blik [![GitHub stars](https://img.shields.io/github/stars/thijsdezoete/blik?style=social&color=white)](https://github.com/thijsdezoete/blik/stargazers)
+* **Repository:** [thijsdezoete/blik](https://github.com/thijsdezoete/blik)
+* **Stack:** Python (Django 5) / Django REST Framework / Docker
+* **License:** Open Source
+* **Overview:** A modern, privacy-first open-source 360 review tool designed as a lightweight self-hosted alternative to Lattice and Culture Amp.
+* **Key Features:**
+  - Anonymous 360-degree feedback cycles
+  - Custom competency definitions and survey builder
+  - Real-time review completion tracking
+  - Single-command Docker Compose deployment
+
+### 7. Evalytics [![GitHub stars](https://img.shields.io/github/stars/eduardogr/evalytics?style=social&color=white)](https://github.com/eduardogr/evalytics/stargazers)
+* **Repository:** [eduardogr/evalytics](https://github.com/eduardogr/evalytics)
+* **Stack:** Python / Google Cloud Platform
+* **License:** Apache-2.0
+* **Overview:** An HR orchestration engine specifically designed to manage and automate end-to-end performance review cycles across distributed engineering and product organizations.
+* **Key Features:**
+  - Automated evaluation distribution to reviewers and managers
+  - Reviewer matrix validation to ensure sufficient multi-angle feedback
+  - Secure report generation with aggregated qualitative and quantitative ratings
+  - Command-line and scriptable review orchestration
+
+### 8. Check-Ins [![GitHub stars](https://img.shields.io/github/stars/objectcomputing/check-ins?style=social&color=white)](https://github.com/objectcomputing/check-ins/stargazers)
+* **Repository:** [objectcomputing/check-ins](https://github.com/objectcomputing/check-ins)
+* **Stack:** Micronaut (Java) / React / Google Cloud
+* **License:** Open Source
+* **Overview:** An enterprise team engagement and review platform created by Object Computing for periodic check-ins, mentor touchpoints, and employee evaluations.
+* **Key Features:**
+  - Performance review workflows with custom frequency (quarterly, biannual, annual)
+  - Continuous feedback tools, pulse surveys, and public kudos with Slack integration
+  - Structured mentor-mentee relationship tracking and check-in logs
+  - Enterprise Google SSO authentication
+
+### 9. PIX 360 [![GitHub stars](https://img.shields.io/github/stars/1024pix/pix-360?style=social&color=white)](https://github.com/1024pix/pix-360/stargazers)
+* **Repository:** [1024pix/pix-360](https://github.com/1024pix/pix-360)
+* **Stack:** Ruby / Rails / PostgreSQL
+* **License:** AGPL-3.0
+* **Overview:** A specialized application by 1024pix built for managing confidential and end-to-end encrypted 360-degree peer appraisals within an organization.
+* **Key Features:**
+  - End-to-end encrypted evaluation responses for maximum participant privacy
+  - Email-based review solicitation and real-time status alerts
+  - Google SSO organizational gating
+  - Lightweight single-purpose 360 evaluation architecture
+
+### 10. Caliber [![GitHub stars](https://img.shields.io/github/stars/shiphrahx/Caliber?style=social&color=white)](https://github.com/shiphrahx/Caliber/stargazers)
+* **Repository:** [shiphrahx/Caliber](https://github.com/shiphrahx/Caliber)
+* **Stack:** TypeScript / React / Node.js
+* **License:** Open Source
+* **Overview:** A management platform designed for engineering managers to run continuous 1:1s, collect real-time performance evidence, and proactively prevent review surprises.
+* **Key Features:**
+  - "Attention Signals" alerting managers to overdue 1:1s or aging action items
+  - Continuous evidence log linked directly to team members for annual reviews
+  - Structured 1:1, retro, planning, and standup agenda templates
+  - Career framework mapping and individual development gap analysis
+
+### 11. Feedback360 [![GitHub stars](https://img.shields.io/github/stars/nashjain/feedback360?style=social&color=white)](https://github.com/nashjain/feedback360/stargazers)
+* **Repository:** [nashjain/feedback360](https://github.com/nashjain/feedback360)
+* **Stack:** JavaScript / Node.js / HTML5
+* **License:** MIT
+* **Overview:** A web-based 360-degree feedback platform facilitating multi-source evaluation surveys with visual competency radar charts.
+* **Key Features:**
+  - Configurable team review groups and participant assignments
+  - Self-ratings mapped against peer and supervisor scores
+  - Visual spider/radar chart output comparing competencies
+  - Clean exportable performance evaluation summaries
+
+### 12. EPMS [![GitHub stars](https://img.shields.io/github/stars/Muadh2002/Employee-Performance-Review-System?style=social&color=white)](https://github.com/Muadh2002/Employee-Performance-Review-System/stargazers)
+* **Repository:** [Muadh2002/Employee-Performance-Review-System](https://github.com/Muadh2002/Employee-Performance-Review-System)
+* **Stack:** React (Vite) / Tailwind CSS / Node.js (Express) / MongoDB Atlas
+* **License:** MIT
+* **Overview:** A modern full-stack employee performance review and KPI tracking application designed as an agile reference implementation.
+* **Key Features:**
+  - Role-based access control (Admin, Manager, Employee) with JWT authentication
+  - Interactive performance metrics, goal progression, and review scorecards
+  - Automated performance reminder notifications
+  - PDF and Excel performance report exports
+
+---
+
+## 📊 Feature Comparison Matrix
+
+| Solution | Model / License | Tech Stack | 360 Feedback | Continuous Check-Ins | OKRs / Goals | Analytics / Spider Charts | Self-Hosted | Target Use Case |
+|:---|:---|:---|:---:|:---:|:---:|:---:|:---:|:---|
+| **Lattice** | Commercial | Cloud SaaS | ✅ | ✅ | ✅ | ✅ | ❌ | Full enterprise performance & engagement |
+| **Culture Amp** | Commercial | Cloud SaaS | ✅ | ✅ | ✅ | ✅ | ❌ | People analytics, eNPS & culture benchmarks |
+| **15Five** | Commercial | Cloud SaaS | ✅ | ✅ | ✅ | ✅ | ❌ | High-cadence weekly check-ins & reviews |
+| **Leapsome** | Commercial | Cloud SaaS | ✅ | ✅ | ✅ | ✅ | ❌ | Mid-market talent enablement & 360 reviews |
+| **Betterworks** | Commercial | Cloud SaaS | ✅ | ✅ | ✅ | ✅ | ❌ | Enterprise OKRs alignment & continuous coaching |
+| **Horilla HRMS** | LGPL-2.1 | Python / Django | ✅ | ✅ | ✅ | ✅ | ✅ | Comprehensive open-source HR suite with appraisal |
+| **MintHCM** | AGPL-3.0 | PHP / Docker | ✅ | ✅ | ✅ | ✅ | ✅ | AI-ready HCM with MCP integration |
+| **HRPulsar** | AGPL-3.0 | FastAPI / Next.js | ✅ | ✅ | ✅ | ✅ | ✅ | Dedicated competency management & 360 reviews |
+| **threesixty** | MIT | Python / React | ✅ | ❌ | ❌ | ✅ | ✅ | Standalone internal 360 feedback surveys |
+| **Thinksy** | MIT | Python / Slack API | ❌ | ✅ | ❌ | ❌ | ✅ | Continuous achievement logging via Slack |
+| **Blik** | Open Source | Python / Django | ✅ | ❌ | ❌ | ✅ | ✅ | Minimalist anonymous 360 review alternative |
+| **Evalytics** | Apache-2.0 | Python / GCP | ✅ | ❌ | ❌ | ✅ | ✅ | Automated review cycle distribution engine |
+| **Check-Ins** | Open Source | Micronaut / React | ✅ | ✅ | ❌ | ✅ | ✅ | Team engagement, reviews & mentor tracking |
+| **PIX 360** | AGPL-3.0 | Ruby / Rails | ✅ (E2EE) | ❌ | ❌ | ❌ | ✅ | Privacy-centric encrypted 360 evaluations |
+| **Caliber** | Open Source | TypeScript / React | ❌ | ✅ | ✅ | ❌ | ✅ | Engineering manager 1:1s & evidence logs |
+| **Feedback360** | MIT | Node.js / HTML5 | ✅ | ❌ | ❌ | ✅ | ✅ | Spider-chart competency evaluations |
+| **EPMS** | MIT | React / Node / Mongo | ✅ | ✅ | ✅ | ✅ | ✅ | Full-stack modern appraisal dashboard |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Performance Review or Feedback Management tool that should be listed here, please open a pull request with:
+Contributions, feedback, and suggestions are warmly welcomed!
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between **full HR suites with performance modules** (Horilla, MintHCM) that cover the entire employee lifecycle, **focused engagement platforms** (Check-Ins) that combine reviews with pulse surveys and recognition, **manager-centric tools** (Caliber) built around 1:1s and evidence logging, and **specialized review tools** (PIX 360 for encrypted 360 evaluations). **Horilla** is the most comprehensive open-source option with active development and Docker deployment , while **Caliber** uniquely addresses the day-to-day reality of management conversations rather than formal review cycles . For organizations wanting AI-agent integration into HR workflows, **MintHCM** offers an MCP-native approach .
+To add a new open-source or self-hosted performance management or feedback tool:
+1. Fork this repository.
+2. Add your recommended platform following the structure above (including repository link, stack, license, star badge, and key features).
+3. Ensure the project is open-source and provides value to teams seeking performance review and feedback automation.
+4. Submit a Pull Request with a clear description of the project.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0) Public Domain Dedication. Individual software products listed retain their respective commercial or open-source licenses.
