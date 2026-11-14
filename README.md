@@ -74,9 +74,9 @@ Below is the comparative breakdown of top commercial cloud platforms for continu
 
 ## 💻 Open-Source Solutions 🔓
 
-A curated collection of production-ready open-source and self-hosted tools for employee evaluations, 360-degree feedback, and continuous check-ins, **sorted by GitHub star count (descending)**. 🌟
+A curated collection of production-ready open-source and self-hosted tools for employee evaluations, 360-degree feedback, and continuous check-ins, **sorted by GitHub Stars_Count (descending)**. 🌟
 
-### 1. 🚀 Horilla HRMS [![GitHub stars](https://img.shields.io/github/stars/horilla/horilla-hr?style=social&color=white)](https://github.com/horilla/horilla-hr/stargazers)
+### 1. 🚀 Horilla HRMS [![GitHub_Stars](https://img.shields.io/github/stars/horilla/horilla-hr?style=social&color=white)](https://github.com/horilla/horilla-hr/stargazers)
 * **Repository:** [horilla/horilla-hr](https://github.com/horilla/horilla-hr)
 * **Stack:** 🐍 Python 3.12–3.14 / Django / PostgreSQL / 🐳 Docker
 * **License:** 📜 LGPL-2.1
@@ -87,7 +87,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 🔌 REST API with token authentication and third-party integrations (Google Meet, WhatsApp)
   - 🛡️ Production-ready Docker Compose deployment with role-based access control (RBAC)
 
-### 2. 🤖 MintHCM [![GitHub stars](https://img.shields.io/github/stars/minthcm/minthcm?style=social&color=white)](https://github.com/minthcm/minthcm/stargazers)
+### 2. 🤖 MintHCM [![GitHub_Stars](https://img.shields.io/github/stars/minthcm/minthcm?style=social&color=white)](https://github.com/minthcm/minthcm/stargazers)
 * **Repository:** [minthcm/minthcm](https://github.com/minthcm/minthcm)
 * **Stack:** 🐘 PHP / Elasticsearch / 🐳 Docker
 * **License:** 📜 AGPL-3.0
@@ -98,7 +98,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 🔐 Complete data ownership without cloud lock-in
   - 🌐 Broad HR footprint covering onboarding, leave management, and career progression
 
-### 3. 🎯 HRPulsar [![GitHub stars](https://img.shields.io/github/stars/HRPulsar/hrpulsar?style=social&color=white)](https://github.com/HRPulsar/hrpulsar/stargazers)
+### 3. 🎯 HRPulsar [![GitHub_Stars](https://img.shields.io/github/stars/HRPulsar/hrpulsar?style=social&color=white)](https://github.com/HRPulsar/hrpulsar/stargazers)
 * **Repository:** [HRPulsar/hrpulsar](https://github.com/HRPulsar/hrpulsar)
 * **Stack:** ⚡ Python (FastAPI) / Next.js / TypeScript / 🐳 Docker
 * **License:** 📜 AGPL-3.0
@@ -109,7 +109,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 📈 Individual development plans (IDPs) linked directly to review results
   - ✨ AI-assisted appraisal summary generation and custom evaluation surveys
 
-### 4. 🔄 threesixty [![GitHub stars](https://img.shields.io/github/stars/thermondo/threesixty?style=social&color=white)](https://github.com/thermondo/threesixty/stargazers)
+### 4. 🔄 threesixty [![GitHub_Stars](https://img.shields.io/github/stars/thermondo/threesixty?style=social&color=white)](https://github.com/thermondo/threesixty/stargazers)
 * **Repository:** [thermondo/threesixty](https://github.com/thermondo/threesixty)
 * **Stack:** 🐍 Python / Django / ⚛️ React
 * **License:** 📜 MIT
@@ -120,7 +120,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 👤 Self-service employee dashboard for viewing completed reviews
   - 📦 Straightforward self-hosted deployment
 
-### 5. 💬 Thinksy [![GitHub stars](https://img.shields.io/github/stars/Thinksy-app/thinksy?style=social&color=white)](https://github.com/Thinksy-app/thinksy)
+### 5. 💬 Thinksy [![GitHub_Stars](https://img.shields.io/github/stars/Thinksy-app/thinksy?style=social&color=white)](https://github.com/Thinksy-app/thinksy)
 * **Repository:** [Thinksy-app/thinksy](https://github.com/Thinksy-app/thinksy)
 * **Stack:** 🐍 Python / 💬 Slack API / Node.js
 * **License:** 📜 MIT
@@ -131,7 +131,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 🎯 Prevents recency bias during annual and semi-annual performance reviews
   - 🔒 Privacy-first self-hosted architecture
 
-### 6. 🛡️ Blik [![GitHub stars](https://img.shields.io/github/stars/thijsdezoete/blik?style=social&color=white)](https://github.com/thijsdezoete/blik/stargazers)
+### 6. 🛡️ Blik [![GitHub_Stars](https://img.shields.io/github/stars/thijsdezoete/blik?style=social&color=white)](https://github.com/thijsdezoete/blik/stargazers)
 * **Repository:** [thijsdezoete/blik](https://github.com/thijsdezoete/blik)
 * **Stack:** 🐍 Python (Django 5) / Django REST Framework / 🐳 Docker
 * **License:** 📜 Open Source
@@ -142,7 +142,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - ⏱️ Real-time review completion tracking
   - 🚀 Single-command Docker Compose deployment
 
-### 7. ⚙️ Evalytics [![GitHub stars](https://img.shields.io/github/stars/eduardogr/evalytics?style=social&color=white)](https://github.com/eduardogr/evalytics/stargazers)
+### 7. ⚙️ Evalytics [![GitHub_Stars](https://img.shields.io/github/stars/eduardogr/evalytics?style=social&color=white)](https://github.com/eduardogr/evalytics/stargazers)
 * **Repository:** [eduardogr/evalytics](https://github.com/eduardogr/evalytics)
 * **Stack:** 🐍 Python / ☁️ Google Cloud Platform
 * **License:** 📜 Apache-2.0
@@ -153,7 +153,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 📑 Secure report generation with aggregated qualitative and quantitative ratings
   - 💻 Command-line and scriptable review orchestration
 
-### 8. 👥 Check-Ins [![GitHub stars](https://img.shields.io/github/stars/objectcomputing/check-ins?style=social&color=white)](https://github.com/objectcomputing/check-ins/stargazers)
+### 8. 👥 Check-Ins [![GitHub_Stars](https://img.shields.io/github/stars/objectcomputing/check-ins?style=social&color=white)](https://github.com/objectcomputing/check-ins/stargazers)
 * **Repository:** [objectcomputing/check-ins](https://github.com/objectcomputing/check-ins)
 * **Stack:** ☕ Micronaut (Java) / ⚛️ React / ☁️ Google Cloud
 * **License:** 📜 Open Source
@@ -164,7 +164,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 🤝 Structured mentor-mentee relationship tracking and check-in logs
   - 🔑 Enterprise Google SSO authentication
 
-### 9. 🔐 PIX 360 [![GitHub stars](https://img.shields.io/github/stars/1024pix/pix-360?style=social&color=white)](https://github.com/1024pix/pix-360/stargazers)
+### 9. 🔐 PIX 360 [![GitHub_Stars](https://img.shields.io/github/stars/1024pix/pix-360?style=social&color=white)](https://github.com/1024pix/pix-360/stargazers)
 * **Repository:** [1024pix/pix-360](https://github.com/1024pix/pix-360)
 * **Stack:** 💎 Ruby / Rails / PostgreSQL
 * **License:** 📜 AGPL-3.0
@@ -175,7 +175,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 🛡️ Google SSO organizational gating
   - ⚡ Lightweight single-purpose 360 evaluation architecture
 
-### 10. 📋 Caliber [![GitHub stars](https://img.shields.io/github/stars/shiphrahx/Caliber?style=social&color=white)](https://github.com/shiphrahx/Caliber/stargazers)
+### 10. 📋 Caliber [![GitHub_Stars](https://img.shields.io/github/stars/shiphrahx/Caliber?style=social&color=white)](https://github.com/shiphrahx/Caliber/stargazers)
 * **Repository:** [shiphrahx/Caliber](https://github.com/shiphrahx/Caliber)
 * **Stack:** 📘 TypeScript / ⚛️ React / Node.js
 * **License:** 📜 Open Source
@@ -186,7 +186,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 📌 Structured 1:1, retro, planning, and standup agenda templates
   - 📈 Career framework mapping and individual development gap analysis
 
-### 11. 🕸️ Feedback360 [![GitHub stars](https://img.shields.io/github/stars/nashjain/feedback360?style=social&color=white)](https://github.com/nashjain/feedback360/stargazers)
+### 11. 🕸️ Feedback360 [![GitHub_Stars](https://img.shields.io/github/stars/nashjain/feedback360?style=social&color=white)](https://github.com/nashjain/feedback360/stargazers)
 * **Repository:** [nashjain/feedback360](https://github.com/nashjain/feedback360)
 * **Stack:** 🟨 JavaScript / Node.js / HTML5
 * **License:** 📜 MIT
@@ -197,7 +197,7 @@ A curated collection of production-ready open-source and self-hosted tools for e
   - 🕸️ Visual spider/radar chart output comparing competencies
   - 📑 Clean exportable performance evaluation summaries
 
-### 12. 📊 EPMS [![GitHub stars](https://img.shields.io/github/stars/Muadh2002/Employee-Performance-Review-System?style=social&color=white)](https://github.com/Muadh2002/Employee-Performance-Review-System/stargazers)
+### 12. 📊 EPMS [![GitHub_Stars](https://img.shields.io/github/stars/Muadh2002/Employee-Performance-Review-System?style=social&color=white)](https://github.com/Muadh2002/Employee-Performance-Review-System/stargazers)
 * **Repository:** [Muadh2002/Employee-Performance-Review-System](https://github.com/Muadh2002/Employee-Performance-Review-System)
 * **Stack:** ⚛️ React (Vite) / Tailwind CSS / Node.js (Express) / 🍃 MongoDB Atlas
 * **License:** 📜 MIT
@@ -258,7 +258,7 @@ Contributions, feedback, and suggestions are warmly welcomed! 🌟
 
 To add a new open-source or self-hosted performance management or feedback tool:
 1. Fork this repository.
-2. Add your recommended platform following the structure above (including repository link, stack, license, star badge, and key features).
+2. Add your recommended platform following the structure above (including repository link, stack, license, Stars_Badge, and key features).
 3. Ensure the project is open-source and provides value to teams seeking performance review and feedback automation.
 4. Submit a Pull Request with a clear description of the project.
 
